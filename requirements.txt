@@ -1,0 +1,11 @@
+# Main requirements file for Railway deployment
+# This file includes all dependencies needed for both bot-api and worker
+
+# Core dependencies
+-r requirements/base.txt
+
+# Bot-specific dependencies
+-r requirements/bot.txt
+
+# Worker-specific dependencies
+-r requirements/worker.txt
